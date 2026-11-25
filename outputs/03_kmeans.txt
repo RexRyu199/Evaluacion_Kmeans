@@ -1,0 +1,55 @@
+EVALUACION DE DIFERENTES VALORES DE K
+   K   Inercia  Silhouette  Davies_Bouldin
+0  2  147312.4      0.2347          1.8114
+1  3  126591.0      0.1715          1.7785
+2  4  112000.2      0.1793          1.6066
+3  5  103532.3      0.1664          1.6278
+4  6   96698.2      0.1626          1.6120
+5  7   92095.9      0.1534          1.6053
+6  8   87912.6      0.1567          1.6362
+
+MODELO FINAL (K=4)
+Inercia: 112000.2
+Iteraciones: 19
+
+CENTROIDES (VALORES ESCALADOS)
+   danceability  energy  loudness  speechiness  acousticness  valence  tempo
+0         0.473  -0.154    -0.023        1.986         0.029    0.165  0.011
+1        -0.665   0.589     0.484       -0.344        -0.538   -0.665  0.383
+2         0.560   0.217     0.160       -0.327        -0.197    0.774 -0.207
+3        -0.314  -1.421    -1.217       -0.360         1.391   -0.497 -0.299
+
+CENTROIDES (VALORES ORIGINALES)
+   danceability  energy  loudness  speechiness  acousticness  valence    tempo
+0         0.723   0.668    -6.899        0.314         0.187    0.545  121.313
+1         0.557   0.805    -5.378        0.073         0.059    0.350  131.338
+2         0.735   0.737    -6.350        0.075         0.136    0.688  115.457
+3         0.608   0.434   -10.486        0.072         0.495    0.390  112.984
+
+CANCIONES POR CLUSTER
+cluster
+0    3831
+1    8488
+2    9371
+3    4527
+Name: count, dtype: int64
+
+VARIANZA EXPLICADA POR PCA
+[0.306 0.207]
+
+COMPARACION DE DOS CONFIGURACIONES (K=4 VS K=2)
+  Configuracion   Inercia  Silhouette  Davies_Bouldin
+0           K=4  112000.2      0.1793          1.6066
+1           K=2  147312.4      0.2347          1.8114
+
+Canciones por cluster con K=2:
+0    18643
+1     7574
+Name: count, dtype: int64
+
+Centroides con K=2 (valores originales):
+   danceability  energy  loudness  speechiness  acousticness  valence    tempo
+0         0.655   0.783    -5.586        0.107         0.094    0.528  124.050
+1         0.652   0.483    -9.893        0.112         0.393    0.453  113.579
+
+Adjusted Rand Index entre K=4 y K=2: 0.2441

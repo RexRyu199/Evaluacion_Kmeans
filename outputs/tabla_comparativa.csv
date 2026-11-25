@@ -1,0 +1,5 @@
+cluster_nombre,canciones,porcentaje,danceability,energy,loudness,speechiness,acousticness,valence,tempo,track_popularity,duracion_min
+Acusticas y tranquilas,4527,17.3,0.608,0.434,-10.486,0.072,0.495,0.39,112.995,41.956,3.766
+Bailables y alegres,9371,35.7,0.735,0.736,-6.354,0.075,0.136,0.688,115.433,41.757,3.759
+Intensas y oscuras,8488,32.4,0.557,0.805,-5.378,0.073,0.059,0.351,131.326,37.824,3.817
+Rap y voces habladas,3831,14.6,0.722,0.668,-6.897,0.314,0.187,0.545,121.35,41.28,3.623

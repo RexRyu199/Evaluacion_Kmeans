@@ -1,0 +1,65 @@
+ESTADISTICAS DESCRIPTIVAS POR CLUSTER (MEDIA)
+                        danceability  energy  loudness  speechiness  acousticness  valence    tempo  track_popularity  duracion_min
+cluster_nombre                                                                                                                     
+Acusticas y tranquilas         0.608   0.434   -10.486        0.072         0.495    0.390  112.995            41.956         3.766
+Bailables y alegres            0.735   0.736    -6.354        0.075         0.136    0.688  115.433            41.757         3.759
+Intensas y oscuras             0.557   0.805    -5.378        0.073         0.059    0.351  131.326            37.824         3.817
+Rap y voces habladas           0.722   0.668    -6.897        0.314         0.187    0.545  121.350            41.280         3.623
+
+ESTADISTICAS DESCRIPTIVAS POR CLUSTER (MEDIANA)
+                        danceability  energy  loudness  speechiness  acousticness  valence    tempo
+cluster_nombre                                                                                     
+Acusticas y tranquilas         0.625   0.442    -9.985        0.046         0.504    0.365  111.831
+Bailables y alegres            0.739   0.744    -6.024        0.058         0.080    0.699  115.231
+Intensas y oscuras             0.568   0.826    -5.131        0.055         0.016    0.340  127.999
+Rap y voces habladas           0.737   0.671    -6.620        0.298         0.128    0.556  118.896
+
+DESVIACION ESTANDAR POR CLUSTER
+                        danceability  energy  loudness  speechiness  acousticness  valence   tempo
+cluster_nombre                                                                                    
+Acusticas y tranquilas         0.148   0.140     3.224        0.062         0.269    0.208  28.165
+Bailables y alegres            0.094   0.129     2.353        0.045         0.150    0.167  21.485
+Intensas y oscuras             0.127   0.126     1.990        0.050         0.095    0.173  25.069
+Rap y voces habladas           0.131   0.147     2.473        0.093         0.185    0.198  33.409
+
+TABLA COMPARATIVA DE LOS GRUPOS
+                        canciones  porcentaje  danceability  energy  loudness  speechiness  acousticness  valence    tempo  track_popularity  duracion_min
+cluster_nombre                                                                                                                                            
+Acusticas y tranquilas       4527        17.3         0.608   0.434   -10.486        0.072         0.495    0.390  112.995            41.956         3.766
+Bailables y alegres          9371        35.7         0.735   0.736    -6.354        0.075         0.136    0.688  115.433            41.757         3.759
+Intensas y oscuras           8488        32.4         0.557   0.805    -5.378        0.073         0.059    0.351  131.326            37.824         3.817
+Rap y voces habladas         3831        14.6         0.722   0.668    -6.897        0.314         0.187    0.545  121.350            41.280         3.623
+
+GENERO PRINCIPAL DE CADA CLUSTER (% DEL CLUSTER)
+playlist_genre           edm  latin   pop   r&b   rap  rock
+cluster_nombre                                             
+Acusticas y tranquilas   5.8   12.0  16.2  31.8  16.6  17.6
+Bailables y alegres     14.8   25.1  18.1  17.0  13.7  11.3
+Intensas y oscuras      34.7    7.4  18.5   6.6  10.0  22.8
+Rap y voces habladas     7.4   12.8   4.9  19.3  54.5   1.0
+
+CLUSTER PRINCIPAL DE CADA GENERO (% DEL GENERO)
+cluster_nombre  Acusticas y tranquilas  Bailables y alegres  Intensas y oscuras  Rap y voces habladas
+playlist_genre                                                                                       
+edm                                5.4                 28.4                60.4                   5.8
+latin                             13.6                 58.5                15.7                  12.2
+pop                               17.5                 40.6                37.5                   4.5
+r&b                               33.2                 36.8                13.0                  17.1
+rap                               15.1                 25.8                17.1                  42.0
+rock                              20.8                 27.7                50.5                   1.0
+
+POPULARIDAD POR CLUSTER
+                         mean  median
+cluster_nombre                       
+Acusticas y tranquilas  41.96    45.0
+Bailables y alegres     41.76    45.0
+Intensas y oscuras      37.82    40.0
+Rap y voces habladas    41.28    44.0
+
+ANIO PROMEDIO POR CLUSTER
+cluster_nombre
+Acusticas y tranquilas    2009.4
+Bailables y alegres       2010.4
+Intensas y oscuras        2013.0
+Rap y voces habladas      2012.7
+Name: anio, dtype: float64

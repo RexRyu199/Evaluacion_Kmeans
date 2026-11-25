@@ -1,0 +1,128 @@
+PRIMEROS 10 REGISTROS
+                 track_id                                         track_name      track_artist  track_popularity          track_album_id                                   track_album_name  \
+0  6f807x0ima9a1j3VPbc7VN  I Don't Care (with Justin Bieber) - Loud Luxur...        Ed Sheeran                66  2oCs0DGTsRO98Gh5ZSl2Cx  I Don't Care (with Justin Bieber) [Loud Luxury...   
+1  0r7CVbZTWZgbTCYdfa2P31                    Memories - Dillon Francis Remix          Maroon 5                67  63rPSO264uRjW1X5E6cWv6                    Memories (Dillon Francis Remix)   
+2  1z1Hg7Vb0AhHDiEmnDE79l                    All the Time - Don Diablo Remix      Zara Larsson                70  1HoSmj2eLcsrR0vE9gThr4                    All the Time (Don Diablo Remix)   
+3  75FpbthrwQmzHlBJLuGdC7                  Call You Mine - Keanu Silva Remix  The Chainsmokers                60  1nqYsOef1yKKuGOVchbsk6                        Call You Mine - The Remixes   
+4  1e8PAfcKUYoKkxPhrHqw4x            Someone You Loved - Future Humans Remix     Lewis Capaldi                69  7m7vv9wlQ4i0LFuJiE2zsQ            Someone You Loved (Future Humans Remix)   
+5  7fvUMiyapMsRRxr07cU8Ef  Beautiful People (feat. Khalid) - Jack Wins Remix        Ed Sheeran                67  2yiy9cd2QktrNvWC2EUi0k  Beautiful People (feat. Khalid) [Jack Wins Remix]   
+6  2OAylPUDDfwRGfe0lYqlCQ                    Never Really Over - R3HAB Remix        Katy Perry                62  7INHYSeusaFlyrHSNxm8qH                    Never Really Over (R3HAB Remix)   
+7  6b1RNvAcJjQH73eZO4BLAB           Post Malone (feat. RANI) - GATTÜSO Remix         Sam Feldt                69  6703SRPsLkS4bPtMFFJes1           Post Malone (feat. RANI) [GATTÜSO Remix]   
+8  7bF6tCO3gFb8INrEDcjNT5             Tough Love - Tiësto Remix / Radio Edit            Avicii                68  7CvAfGvq4RlIwEbT9o8Iav                          Tough Love (Tiësto Remix)   
+9  1IXGILkPm0tOCNeq00kCPa                If I Can't Have You - Gryffin Remix      Shawn Mendes                67  4QxzbfSsVryEQwvPFEV5Iu                If I Can't Have You (Gryffin Remix)   
+
+  track_album_release_date playlist_name             playlist_id playlist_genre playlist_subgenre  danceability  energy  key  loudness  mode  speechiness  acousticness  instrumentalness  liveness  \
+0               2019-06-14     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.748   0.916    6    -2.634     1       0.0583        0.1020          0.000000    0.0653   
+1               2019-12-13     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.726   0.815   11    -4.969     1       0.0373        0.0724          0.004210    0.3570   
+2               2019-07-05     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.675   0.931    1    -3.432     0       0.0742        0.0794          0.000023    0.1100   
+3               2019-07-19     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.718   0.930    7    -3.778     1       0.1020        0.0287          0.000009    0.2040   
+4               2019-03-05     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.650   0.833    1    -4.672     1       0.0359        0.0803          0.000000    0.0833   
+5               2019-07-11     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.675   0.919    8    -5.385     1       0.1270        0.0799          0.000000    0.1430   
+6               2019-07-26     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.449   0.856    5    -4.788     0       0.0623        0.1870          0.000000    0.1760   
+7               2019-08-29     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.542   0.903    4    -2.419     0       0.0434        0.0335          0.000005    0.1110   
+8               2019-06-14     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.594   0.935    8    -3.562     1       0.0565        0.0249          0.000004    0.6370   
+9               2019-06-20     Pop Remix  37i9dQZF1DXcZDD7cfEKhW            pop         dance pop         0.642   0.818    2    -4.552     1       0.0320        0.0567          0.000000    0.0919   
+
+   valence    tempo  duration_ms  
+0    0.518  122.036       194754  
+1    0.693   99.972       162600  
+2    0.613  124.008       176616  
+3    0.277  121.956       169093  
+4    0.725  123.976       189052  
+5    0.585  124.982       163049  
+6    0.152  112.648       187675  
+7    0.367  127.936       207619  
+8    0.366  127.015       193187  
+9    0.590  124.957       253040  
+
+DIMENSIONES
+(32833, 23)
+
+COLUMNAS
+Index(['track_id', 'track_name', 'track_artist', 'track_popularity', 'track_album_id', 'track_album_name', 'track_album_release_date', 'playlist_name', 'playlist_id', 'playlist_genre',
+       'playlist_subgenre', 'danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms'],
+      dtype='str')
+
+TIPOS DE DATOS
+track_id                        str
+track_name                      str
+track_artist                    str
+track_popularity              int64
+track_album_id                  str
+track_album_name                str
+track_album_release_date        str
+playlist_name                   str
+playlist_id                     str
+playlist_genre                  str
+playlist_subgenre               str
+danceability                float64
+energy                      float64
+key                           int64
+loudness                    float64
+mode                          int64
+speechiness                 float64
+acousticness                float64
+instrumentalness            float64
+liveness                    float64
+valence                     float64
+tempo                       float64
+duration_ms                   int64
+dtype: object
+
+ESTADISTICAS DESCRIPTIVAS
+                    count           mean           std          min          25%            50%           75%         max
+track_popularity  32833.0      42.477081     24.984074     0.000000      24.0000      45.000000      62.00000     100.000
+danceability      32833.0       0.654850      0.145085     0.000000       0.5630       0.672000       0.76100       0.983
+energy            32833.0       0.698619      0.180910     0.000175       0.5810       0.721000       0.84000       1.000
+key               32833.0       5.374471      3.611657     0.000000       2.0000       6.000000       9.00000      11.000
+loudness          32833.0      -6.719499      2.988436   -46.448000      -8.1710      -6.166000      -4.64500       1.275
+mode              32833.0       0.565711      0.495671     0.000000       0.0000       1.000000       1.00000       1.000
+speechiness       32833.0       0.107068      0.101314     0.000000       0.0410       0.062500       0.13200       0.918
+acousticness      32833.0       0.175334      0.219633     0.000000       0.0151       0.080400       0.25500       0.994
+instrumentalness  32833.0       0.084747      0.224230     0.000000       0.0000       0.000016       0.00483       0.994
+liveness          32833.0       0.190176      0.154317     0.000000       0.0927       0.127000       0.24800       0.996
+valence           32833.0       0.510561      0.233146     0.000000       0.3310       0.512000       0.69300       0.991
+tempo             32833.0     120.881132     26.903624     0.000000      99.9600     121.984000     133.91800     239.440
+duration_ms       32833.0  225799.811622  59834.006182  4000.000000  187819.0000  216000.000000  253585.00000  517810.000
+
+VALORES NULOS
+track_id                    0
+track_name                  5
+track_artist                5
+track_popularity            0
+track_album_id              0
+track_album_name            5
+track_album_release_date    0
+playlist_name               0
+playlist_id                 0
+playlist_genre              0
+playlist_subgenre           0
+danceability                0
+energy                      0
+key                         0
+loudness                    0
+mode                        0
+speechiness                 0
+acousticness                0
+instrumentalness            0
+liveness                    0
+valence                     0
+tempo                       0
+duration_ms                 0
+dtype: int64
+
+REGISTROS DUPLICADOS (FILA COMPLETA)
+0
+
+CANCIONES REPETIDAS (TRACK_ID)
+4477
+
+CANCIONES POR GENERO
+playlist_genre
+edm      6043
+rap      5746
+pop      5507
+r&b      5431
+latin    5155
+rock     4951
+Name: count, dtype: int64

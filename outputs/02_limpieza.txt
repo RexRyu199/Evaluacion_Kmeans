@@ -1,0 +1,73 @@
+REGISTROS INICIALES
+(32833, 23)
+
+NULOS ANTES
+track_name          5
+track_artist        5
+track_album_name    5
+dtype: int64
+
+CANCIONES REPETIDAS POR TRACK_ID
+4476
+
+CANCIONES REPETIDAS POR NOMBRE Y ARTISTA
+2123
+
+REGISTROS INVALIDOS
+Tempo igual a 0: 1
+Duracion menor a 30 segundos: 2
+Danceability igual a 0: 1
+Loudness menor a -25 dB (casi silencio): 11
+
+TIPOS DE DATOS ANTES
+track_album_release_date      str
+duration_ms                 int64
+dtype: object
+
+TIPOS DE DATOS DESPUES
+track_album_release_date    datetime64[us]
+anio                                 int32
+duracion_min                       float64
+dtype: object
+
+VALORES ATIPICOS POR VARIABLE (IQR)
+danceability : 250
+energy : 209
+loudness : 768
+speechiness : 2465
+acousticness : 1713
+valence : 0
+tempo : 435
+
+CODIFICACION DEL GENERO
+      playlist_genre  genero_codigo
+30241            edm              0
+20091          latin              1
+1605             pop              2
+23104            r&b              3
+11113            rap              4
+14382           rock              5
+
+ESTADISTICAS ANTES DEL ESCALAMIENTO
+                    mean        std        min      max
+danceability    0.653835   0.145351   0.077100    0.983
+energy          0.696613   0.184558   0.008140    1.000
+loudness       -6.830895   3.003675 -24.890000    1.275
+speechiness     0.108721   0.103291   0.022400    0.918
+acousticness    0.180648   0.226010   0.000001    0.994
+valence         0.506479   0.234543   0.000010    0.990
+tempo         121.022157  26.928387  35.477000  239.440
+
+ESTADISTICAS DESPUES DEL ESCALAMIENTO
+              mean  std    min    max
+danceability   0.0  1.0 -3.968  2.265
+energy        -0.0  1.0 -3.730  1.644
+loudness       0.0  1.0 -6.012  2.699
+speechiness    0.0  1.0 -0.836  7.835
+acousticness  -0.0  1.0 -0.799  3.599
+valence       -0.0  1.0 -2.159  2.062
+tempo         -0.0  1.0 -3.177  4.398
+
+DATASET LIMPIO
+(26217, 26)
+0 nulos
